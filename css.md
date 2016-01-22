@@ -13,7 +13,7 @@ Syntax
 
 #### Use shorthand properties
 
-CSS offers a variety of shorthand properties (like font) that should be used whenever possible, even in cases where only one value is explicitly set.
+CSS offers a variety of [shorthand](http://www.w3.org/TR/CSS21/about.html#shorthand) properties (like font) that should be used whenever possible, even in cases where only one value is explicitly set.
 
 Using shorthand properties is useful for code efficiency and understandability.
 
