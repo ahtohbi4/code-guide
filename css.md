@@ -16,10 +16,9 @@ Syntax
 CSS offers a variety of [shorthand](http://www.w3.org/TR/CSS21/about.html#shorthand) properties (like font) that should be used whenever possible, even in cases where only one value is explicitly set.
 
 Using shorthand properties is useful for code efficiency and understandability.
-
 ```css
 /* Bad */
-.some-rule {
+.bad-class {
     border-top-style: none;
     font-family: palatino, georgia, serif;
     font-size: 100%;
@@ -30,10 +29,26 @@ Using shorthand properties is useful for code efficiency and understandability.
     padding-top: 0;
 }
 /* Good */
-.some-rule {
+.good-class {
     border-top: 0;
     font: 100%/1.6 palatino, georgia, serif;
     padding: 0 1em 2em;
+}
+```
+
+#### Omit unit specification after '0' values
+
+Do not use units after 0 values unless they are required.
+```css
+/* Bad */
+.bad-class {
+    margin: 0px;
+    padding: 0em;
+}
+/* Good */
+.good-class {
+    margin: 0;
+    padding: 0;
 }
 ```
 
