@@ -52,6 +52,34 @@ Do not use units after 0 values unless they are required.
 }
 ```
 
+#### Omit leading '0's in values
+
+Do not use put 0s in front of values or lengths between -1 and 1.
+```css
+/* Bad */
+.bad-class {
+    font-size: 0.8em;
+}
+/* Good */
+.good-class {
+    font-size: .8em;
+}
+```
+
+#### Use 3 character hexadecimal notation where possible
+
+For color values that permit it, 3 character hexadecimal notation is shorter and more succinct.
+```css
+/* Bad */
+.bad-class {
+    color: #eebbcc;
+}
+/* Good */
+.good-class {
+    color: #ebc;
+}
+```
+
 Naming of selectors
 --
 
