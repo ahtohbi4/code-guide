@@ -1,7 +1,7 @@
 CSS
 ==
 
-[← Code Style](https://github.com/ahtohbi4/code-style/blob/master/README.md#code-style)
+[↩ Code Style](https://github.com/ahtohbi4/code-style/blob/master/README.md#code-style)
 
 ##### Table of content
 1. [Syntax](#syntax)
