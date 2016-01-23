@@ -164,7 +164,59 @@ Use single ('') rather than double ("") quotation marks for attribute selectors 
 }
 ```
 
-Naming of selectors
+#### Never use !important
+
+Do not fix problems with !important.
+```css
+/* Bad */
+.bad-class {
+    width: 50% !important;
+}
+```
+
+Selectors
+--
+
+#### Never use '*' (universal selector)
+```css
+/* Bad */
+* {
+    display: flex;
+}
+```
+
+#### Avoid use ID selectors
+```css
+/* Bad */
+#bad-selector {
+    position: relative;
+    top: 9px;;
+}
+```
+
+#### Avoid use nested selectors
+```css
+/* Bad */
+.parent-class .child-class {
+    color: red;
+}
+```
+
+Exceptions are the elements in BEM notation nested in blocks.
+```css
+/* Acceptably */
+.some-block {
+    display: box;
+}
+.some-block__element {
+    color: #777;
+}
+.some-block_modificator_some .some-block__element {
+    color: #f30;
+}
+```
+
+Naming of selectors (BEM)
 --
 
 Sequence of properties
