@@ -3,12 +3,55 @@ HTML
 
 [↩ Code Style](https://github.com/ahtohbi4/code-style/blob/master/README.md#code-style)
 
-Blank Lines and Indentation
+##### Table of content
+1. [Common](#common)
+2. [Syntax](#syntax)
+
+Common
 --
+
+#### Blank Lines and Indentation
 
  * Do not add blank lines without a reason.
  * Add 4 spaces of indentation. Do not use TAB.
  * Add blank lines to separate large or logical code blocks.
+
+```html
+<!-- Bad -->
+<section>
+
+<h1>Moscow</h1>
+
+<p>
+    <strong>Moscow</strong> is the capital and the largest city of Russia with 12.2 million residents within the city limits and 16.8 million within the urban area. Moscow is one of three federal cities in Russia.
+</p>
+
+</section>
+
+<!-- Good -->
+<section>
+    <h1>Moscow</h1>
+
+    <p><strong>Moscow</strong> is the capital and the largest city of Russia with 12.2 million residents within the city limits and 16.8 million within the urban area. Moscow is one of three federal cities in Russia.</p>
+</section>
+```
+
+#### Specify page language
+
+Declaring a language is important for accessibility applications (screen readers) and search engines.
+```html
+<html lang="en-US">
+```
+
+#### Use simple syntax for linking style sheets
+```html
+<link rel="stylesheet" href="/path/to/styles.css">
+```
+
+#### Use simple syntax for loading external scripts
+```html
+<script src="/path/to/script.js">
+```
 
 Syntax
 --
