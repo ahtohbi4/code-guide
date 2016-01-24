@@ -36,6 +36,13 @@ Common
 </section>
 ```
 
+#### Always declare the document type
+
+And do it as the first line in your document.
+```html
+<!doctype html>
+```
+
 #### Specify page language
 
 Declaring a language is important for accessibility applications (screen readers) and search engines.
@@ -53,15 +60,12 @@ Declaring a language is important for accessibility applications (screen readers
 <script src="/path/to/script.js">
 ```
 
+#### Use other tags and attributes to provide users more opportunity
+
+See [HTML5 layout](https://github.com/ahtohbi4/layout).
+
 Syntax
 --
-
-#### Always declare the document type
-
-And do it as the first line in your document.
-```html
-<!doctype html>
-```
 
 #### Use lower case element names
 
