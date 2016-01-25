@@ -7,6 +7,7 @@ CSS
 1. [Syntax](#syntax)
 2. Naming of selectors
 3. Sequence of properties
+4. [References](#references)
 
 Syntax
 --
@@ -221,3 +222,8 @@ Naming of selectors (BEM)
 
 Sequence of properties
 --
+
+References
+--
+
+1. [CSS Guidelines](http://cssguidelin.es/)
