@@ -7,7 +7,6 @@ CSS
 1. [Syntax](#syntax)
 2. Naming of selectors
 3. Sequence of properties
-4. [References](#references)
 
 Syntax
 --
@@ -222,10 +221,3 @@ Naming of selectors (BEM)
 
 Sequence of properties
 --
-
-References
---
-
-1. [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.xml)
-2. [HTML(5) Style Guide and Coding Conventions](http://www.w3schools.com/html/html5_syntax.asp)
-2. [CSS Guidelines](http://cssguidelin.es/)
