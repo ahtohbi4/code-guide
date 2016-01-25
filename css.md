@@ -226,4 +226,6 @@ Sequence of properties
 References
 --
 
-1. [CSS Guidelines](http://cssguidelin.es/)
+1. [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.xml)
+2. [HTML(5) Style Guide and Coding Conventions](http://www.w3schools.com/html/html5_syntax.asp)
+2. [CSS Guidelines](http://cssguidelin.es/)
