@@ -22,5 +22,6 @@ Code Style
 
 #### Configurations
 
+* Git
 * Atom
 * Sublime Text 3
