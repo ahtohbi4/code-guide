@@ -23,5 +23,8 @@ Code Style
 #### Configurations
 
 * Git
+
+  * [.gitconfig|https://github.com/ahtohbi4/code-style/blob/master/git/.gitconfig]
+
 * Atom
 * Sublime Text 3
