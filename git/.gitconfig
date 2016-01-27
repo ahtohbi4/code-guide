@@ -1,0 +1,32 @@
+[user]
+    name = Alexander Antonov
+    email = alexandr-post@yandex.ru
+
+[color]
+    ui = auto
+    status = auto
+    diff = auto
+    branch = auto
+
+[alias]
+    st = status
+    cm = commit -m
+    co = checkout
+    pl = pull
+    ps = push
+    m = merge --no-ff --log origin/master
+    sui = submodule update --init
+    out = log origin/HEAD..master
+    diffshort = diff --color-words
+    undo = reset --hard HEAD
+[pack]
+    threads = 5
+
+[core]
+    editor = vim
+
+[push]
+    default = current
+
+[remote "origin"]
+    push = HEAD
