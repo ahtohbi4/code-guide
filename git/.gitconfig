@@ -18,6 +18,7 @@
     sui = submodule update --init
     out = log origin/HEAD..master
     diffshort = diff --color-words
+    refresh = remote update -p
     undo = reset --hard HEAD
 
     hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
