@@ -19,6 +19,9 @@
     out = log origin/HEAD..master
     diffshort = diff --color-words
     undo = reset --hard HEAD
+
+    hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+
 [pack]
     threads = 5
 
