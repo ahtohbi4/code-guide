@@ -5,7 +5,7 @@ CSS
 
 ##### Table of content
 1. [Syntax](#syntax)
-2. Naming of selectors
+2. [Naming of selectors (BEM)](#naming-of-selectors-bem)
 3. Sequence of properties
 
 Syntax
