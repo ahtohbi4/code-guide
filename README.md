@@ -1,4 +1,4 @@
-Code Style
+Code Guide
 ==
 
 > My code style in CSS, HTML, JavaScript, and number of configs and settings for IDE.
@@ -19,6 +19,7 @@ Code Style
 * [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.xml)
 * [HTML(5) Style Guide and Coding Conventions](http://www.w3schools.com/html/html5_syntax.asp)
 * [CSS Guidelines](http://cssguidelin.es/)
+* [Code Guide by @AlloyTeam](http://alloyteam.github.io/CodeGuide/)
 
 #### Configurations
 
