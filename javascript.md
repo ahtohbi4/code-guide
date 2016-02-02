@@ -127,3 +127,42 @@ The following situations require a Space:
      * Multi-line comment
      */
     ```
+
+#### Empty row
+
+Following situations require Empty lines:
+
+ 1. After the variable declaration (except variable declaration at the last line of code blocks)
+    ```js
+    // need blank line after variable declaration
+    var x = 1;
+
+    // not need blank line when variable declaration is last expression in the current block
+    if (x >= 1) {
+        var y = x + 1;
+    }
+    ```
+ 2. Before comments (except comment on the first line of code block)
+    ```js
+    var a = 2;
+
+    // need blank line before line comment
+    a++;
+
+    function b() {
+        // not need blank line when comment is first line of block
+        return a;
+    }
+    ```
+ 3. After the code block (in function calls, arrays, objects you do not need empty lines)
+    ```js
+    // need blank line after blocks
+    for (var i = 0; i < 2; i++) {
+        if (true) {
+            return false;
+        }
+
+        continue;
+    }
+    ```
+ 4. End of file
