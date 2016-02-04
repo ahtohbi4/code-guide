@@ -45,7 +45,7 @@ And do it as the first line in your document.
 
 #### Specify page language
 
-Declaring a language is important for accessibility applications (screen readers) and search engines.
+Declaring a language is important for accessibility applications (screen readers) and search engines. Language can be found in the [list](http://www.sitepoint.com/web-foundations/iso-2-letter-language-codes/).
 ```html
 <html lang="en-US">
 ```
