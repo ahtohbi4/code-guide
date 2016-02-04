@@ -6,6 +6,7 @@ HTML
 ##### Table of content
 1. [Common](#common)
 2. [Syntax](#syntax)
+3. [References](#references)
 
 Common
 --
@@ -45,7 +46,7 @@ And do it as the first line in your document.
 
 #### Specify page language
 
-Declaring a language is important for accessibility applications (screen readers) and search engines. Language can be found in the [list](http://www.sitepoint.com/web-foundations/iso-2-letter-language-codes/).
+Declaring a language is important for accessibility applications (screen readers) and search engines. Language can be found in the [list](https://msdn.microsoft.com/en-us/library/ms533052(v=vs.85).aspx).
 ```html
 <html lang="en-US">
 ```
@@ -135,3 +136,9 @@ Always define image size. It reduces flickering because the browser can reserve 
 <!-- Good -->
 <link rel="stylesheet" href="styles.css">
 ```
+
+References
+--
+
+ * https://www.w3.org/html/wg/drafts/html/master/semantics.html
+ * http://www.sitepoint.com/web-foundations/
