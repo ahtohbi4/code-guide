@@ -6,7 +6,7 @@ CSS
 ##### Table of content
 1. [Syntax](#syntax)
 2. [Naming of selectors (BEM)](#naming-of-selectors-bem)
-3. Sequence of properties
+3. [Property order](#property-order)
 
 Syntax
 --
@@ -219,5 +219,5 @@ Exceptions are the elements in BEM notation nested in blocks.
 Naming of selectors (BEM)
 --
 
-Sequence of properties
+Property order
 --
