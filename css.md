@@ -190,7 +190,7 @@ Selectors
 /* Bad */
 #bad-selector {
     position: relative;
-    top: 9px;;
+    top: 9px;
 }
 ```
 
