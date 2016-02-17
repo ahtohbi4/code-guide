@@ -219,5 +219,76 @@ Exceptions are the elements in BEM notation nested in blocks.
 Naming of selectors (BEM)
 --
 
+Source: https://en.bem.info/method/naming-convention/
+
+BEM, meaning Block, Element, Modifier, is a front-end methodology coined by developers working at Yandex.
+
+#### CSS selector naming convention
+ * Names of BEM entities are written using numbers and lowercase Latin characters.
+ * Individual words within names are separated by a hyphen (`-`).
+ * Information about the names of blocks, elements, and modifiers is stored using CSS classes.
+
+#### Block name
+
+A block name follows the block-name scheme and defines a namespace for elements and modifiers.
+
+Different prefixes can sometimes be added to block names. Our experience of using prefixes is told in detail in the article The History of BEM.
+
+Example: `menu`, `lang-switcher`.
+
+```css
+.menu {
+    color: red;
+}
+```
+
+#### Element name
+
+The namespace defined by the name of a block identifies an element as belonging to the block. An element name is delimited by a double underscore (`__`).
+
+The full name of an element is created using this scheme: `block-name__elem-name`.
+
+If a block has several identical elements, such as in the case of menu items, all of them will have the same name `menu__item`.
+
+##### Never use elements within elements
+
+```css
+/* Bad */
+.block-name__elem1__elem2 {}
+
+/* Good */
+.block-name__elem1 {}
+.block-name__elem2 {}
+```
+
+[More info](https://en.bem.info/faq/#why-does-bem-not-recommend-using-elements-within-elements-block__elem1__elem2)
+
+#### Modifier name
+
+The namespace defined by the name of a block identifies a modifier as belonging to that block or its element. A modifier name is delimited by a single underscore (`_`).
+
+The full name of a modifier is created using the scheme:
+
+ * For Boolean modifiers — `owner-name_mod-name`.
+ * For key-value type modifiers — `owner-name_mod-name_mod-val`.
+
+ #### Block modifier
+ 
+  * **Boolean modifier.** The value of such a modifier is not specified. The full name is created using the scheme: `block-name_mod-name`.
+
+    ```css
+    .menu_hidden {
+        position: relative;
+    }
+    ```
+
+  * **Key-value type modifier.** The value of a modifier is separated from its name by a single underscore (`_`). The full name is created using the scheme: `block-name_mod-name_mod-val`.
+
+    ```css
+    .menu_theme_morning-forest {
+        background-color: green;
+    }
+    ```
+
 Property order
 --
