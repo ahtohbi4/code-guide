@@ -261,7 +261,7 @@ If a block has several identical elements, such as in the case of menu items, al
 .block-name__elem2 {}
 ```
 
-[More info](https://en.bem.info/faq/#why-does-bem-not-recommend-using-elements-within-elements-block__elem1__elem2)
+[Why does BEM not recommend using elements within elements?](https://en.bem.info/faq/#why-does-bem-not-recommend-using-elements-within-elements-block__elem1__elem2)
 
 #### Modifier name
 
@@ -287,6 +287,24 @@ The full name of a modifier is created using the scheme:
     ```css
     .menu_theme_morning-forest {
         background-color: green;
+    }
+    ```
+
+#### Element modifier
+
+ * **Boolean modifier.** The value of such a modifier is not specified. The full name is created using this scheme: `block-name__elem-name_mod-name`.
+
+    ```css
+    .menu_hidden {
+        position: relative;
+    }
+    ```
+
+ * **Key-value type modifier.** The value of a modifier is separated from its name by a single underscore (`_`). The full name is created using the scheme: `block-name__elem-name_mod-name_mod-val`.
+
+    ```css
+    .menu__item_type_radio {
+        color: #333;
     }
     ```
 
