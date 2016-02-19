@@ -272,7 +272,7 @@ The full name of a modifier is created using the scheme:
  * For Boolean modifiers — `owner-name_mod-name`.
  * For key-value type modifiers — `owner-name_mod-name_mod-val`.
 
- #### Block modifier
+#### Block modifier
  
   * **Boolean modifier.** The value of such a modifier is not specified. The full name is created using the scheme: `block-name_mod-name`.
 
