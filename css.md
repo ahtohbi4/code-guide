@@ -150,7 +150,7 @@ For color values that permit it, 3 character hexadecimal notation is shorter and
 
 #### Use single quotation marks for attribute selectors and property values
 
-Use single ('') rather than double ("") quotation marks for attribute selectors or property values. Do not use quotation marks in URI values (url()).
+Use single (`''`) rather than double (`""`) quotation marks for attribute selectors or property values. Do not use quotation marks in URI values (url()).
 ```css
 /* Bad */
 .bad-class {
@@ -166,7 +166,7 @@ Use single ('') rather than double ("") quotation marks for attribute selectors 
 
 #### Never use !important
 
-Do not fix problems with !important.
+Do not fix problems with `!important`.
 ```css
 /* Bad */
 .bad-class {
@@ -177,7 +177,7 @@ Do not fix problems with !important.
 Selectors
 --
 
-#### Never use '*' (universal selector)
+#### Never use the universal selector (`*`)
 ```css
 /* Bad */
 * {
