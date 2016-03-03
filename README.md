@@ -13,6 +13,7 @@ Code Guide
 
 * Speed Optimisation
 * Mobile Devices
+* [Localization (l10n)](https://github.com/ahtohbi4/code-style/blob/master/l10n.md#html)
 
 #### References
 
