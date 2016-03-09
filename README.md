@@ -28,3 +28,4 @@ Code Guide
   * [.gitconfig](https://github.com/ahtohbi4/code-style/blob/master/git/.gitconfig)
 * Atom
 * Sublime Text 3
+  * [Sublime Text 3 settings](https://github.com/ahtohbi4/sublime-text-settings)
