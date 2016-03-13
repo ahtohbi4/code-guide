@@ -34,7 +34,7 @@ In strict mode, any assignment to a non-writable property, a getter-only propert
 Syntax
 --
 
-#### indentation
+#### Indentation
 
 Use soft tab (4 spaces).
 
