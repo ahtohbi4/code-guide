@@ -6,6 +6,7 @@ JavaScript
 ##### Table of content
 1. [Strict Mode](#strict-mode)
 2. [Syntax](#syntax)
+3. [Good Practices](#good-practices)
 
 Strict Mode
 --
@@ -191,3 +192,36 @@ Following situations require Empty lines:
     }
     ```
  4. End of file
+
+Good Practices
+--
+
+#### Avoid Global Variables
+
+Global variables and functions can be overwritten by other scripts.
+
+#### Always Declare Local Variables
+
+All variables used in a function should be declared as local variables.
+
+Local variables must be declared with the var keyword, otherwise they will become global variables.
+
+#### Declarations on Top
+
+It is a good coding practice to put all declarations at the top of each script or function.
+
+This will:
+ * Give cleaner code.
+ * Provide a single place to look for local variables.
+ * Make it easier to avoid unwanted (implied) global variables.
+ * Reduce the possibility of unwanted re-declarations.
+
+```js
+// Declare at the beginning
+var firstVariable,
+    secondVariable;
+
+// Use later
+firstVariable = 'some value';
+secondVariable = 123;
+```
