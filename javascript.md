@@ -4,7 +4,7 @@ JavaScript
 [↩ Code Style](https://github.com/ahtohbi4/code-style/blob/master/README.md#code-style)
 
 ##### Table of content
-1. [Strict Mode](#strictMode)
+1. [Strict Mode](#strict-mode)
 2. [Syntax](#syntax)
 
 Strict Mode
