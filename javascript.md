@@ -10,7 +10,7 @@ JavaScript
 Strict Mode
 --
 
-#### declaring strict mode
+#### Declaring Strict Mode
 
 Strict mode is declared by adding 'use strict'; to the beginning of a JavaScript or a JavaScript function.
 
@@ -20,7 +20,7 @@ Declared at the beginning of a JavaScript file, it has global scope (all code wi
 x = 3.14;       // This will cause an error (x is not defined)
 ```
 
-#### why strict mode?
+#### Why Strict Mode?
 Strict mode makes it easier to write 'secure' JavaScript.
 
 Strict mode changes previously accepted "bad syntax" into real errors.
