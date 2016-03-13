@@ -13,7 +13,7 @@ Code Guide
 
 * Speed Optimisation
 * Mobile Devices
-* [Search Engine Optimization (SEO)](https://github.com/ahtohbi4/code-style/blob/master/seo.md#search-engine-optimization-seo)
+* [Search Engine Optimization (SEO)](https://github.com/ahtohbi4/code-guide/blob/master/seo.md#search-engine-optimization-seo)
 * [Localization (l10n)](https://github.com/ahtohbi4/code-style/blob/master/l10n.md#l10n)
 
 #### References
