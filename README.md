@@ -12,7 +12,7 @@ Code Guide
 #### Accessibility
 
 * Speed Optimisation
-* Mobile Devices
+* [Mobile Devices](https://github.com/ahtohbi4/code-guide/blob/master/mobile_devices.md#mobile-devices)
 * [Search Engine Optimization (SEO)](https://github.com/ahtohbi4/code-guide/blob/master/seo.md#search-engine-optimization-seo)
 * [Localization (l10n)](https://github.com/ahtohbi4/code-style/blob/master/l10n.md#l10n)
 
