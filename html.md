@@ -51,12 +51,21 @@ Declaring a language is important for accessibility applications (screen readers
 <html lang="en-US">
 ```
 
+#### Always declare the character set
+
+UTF-8 (Unicode) covers almost all of the characters and symbols in the world.
+```html
+<meta charset="utf-8">
+```
+
 #### Use simple syntax for linking style sheets
+
 ```html
 <link rel="stylesheet" href="/path/to/styles.css">
 ```
 
 #### Use simple syntax for loading external scripts
+
 ```html
 <script src="/path/to/script.js">
 ```
@@ -83,6 +92,7 @@ Lowercase look cleaner and are easier to write.
 ```
 
 #### Close all HTML elements
+
 ```html
 <!-- Bad -->
 <section>
@@ -97,6 +107,7 @@ Lowercase look cleaner and are easier to write.
 ```
 
 #### Dont close empty tags
+
 ```html
 <!-- Bad -->
 <meta charset="utf-8" />
@@ -105,6 +116,7 @@ Lowercase look cleaner and are easier to write.
 ```
 
 #### Use lowercase attribute names
+
 ```html
 <!-- Bad -->
 <a CLASS="link" Href="//example.com/">Link</a>
@@ -113,6 +125,7 @@ Lowercase look cleaner and are easier to write.
 ```
 
 #### Use duble quotation marks ("") for attribute
+
 ```html
 <!-- Bad -->
 <a class=logo href=//example.com/></a>
@@ -120,7 +133,7 @@ Lowercase look cleaner and are easier to write.
 <a class="logo" href="//example.com/"></a>
 ```
 
-#### Always use attributes alt, width and height for ```<img>```
+#### Always use attributes alt, width and height for `<img>`
 
 Always use the alt attribute with images. It is important when the image cannot be viewed.
 
@@ -130,6 +143,7 @@ Always define image size. It reduces flickering because the browser can reserve 
 ```
 
 #### No spaces around the equal signs
+
 ```html
 <!-- Bad -->
 <link rel = "stylesheet" href = "styles.css">
