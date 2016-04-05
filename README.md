@@ -1,7 +1,7 @@
 Code Guide
 ==
 
-> My code style in CSS, HTML, JavaScript, and number of configs and settings for IDE.
+> My code style in CSS, HTML, JavaScript, and number of configs and other settings.
 
 #### Code Style
 
