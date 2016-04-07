@@ -58,6 +58,13 @@ UTF-8 (Unicode) covers almost all of the characters and symbols in the world.
 <meta charset="utf-8">
 ```
 
+#### Don't forget about page title
+
+The `<title>` element is required in HTML5.
+```html
+<title>Make the title as meaningful as possible</title>
+```
+
 #### Use simple syntax for linking style sheets
 
 ```html
