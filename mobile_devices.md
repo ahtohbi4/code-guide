@@ -3,6 +3,8 @@ Mobile Devices
 
 [↩ Code Style](https://github.com/ahtohbi4/code-style/blob/master/README.md#code-style)
 
+Your web page should look good, and be easy to use, regardless of the device.
+
 #### Setting The Viewport
 
 Include the following `<meta>` viewport element in all your web pages:
