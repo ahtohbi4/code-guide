@@ -14,7 +14,8 @@
     co = checkout
     pl = pull
     ps = push
-    m = merge --no-ff --log origin/master
+    m = merge --no-ff --log
+    up = m origin/master
     sui = submodule update --init
     out = log origin/HEAD..master
     diffshort = diff --color-words
