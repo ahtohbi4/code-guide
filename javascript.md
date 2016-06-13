@@ -225,3 +225,7 @@ var firstVariable,
 firstVariable = 'some value';
 secondVariable = 123;
 ```
+
+#### Use a clean functions
+
+[More about…](http://prgssr.ru/development/delaem-svoj-javascript-chistym.html)
