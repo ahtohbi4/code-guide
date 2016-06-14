@@ -5,17 +5,17 @@ Code Guide
 
 #### Code Style
 
-* [HTML](https://github.com/ahtohbi4/code-style/blob/master/html.md#html) | [Twig](https://github.com/ahtohbi4/code-style/blob/master/twig.md#twig)
-* [CSS](https://github.com/ahtohbi4/code-style/blob/master/css.md#css)
-* [JavaScript](https://github.com/ahtohbi4/code-style/blob/master/javascript.md#javascript)
+* [HTML](./html.md#html) | [Twig](./twig.md#twig)
+* [CSS](./css.md#css)
+* [JavaScript](./javascript.md#javascript)
 
 #### Accessibility
 
 * Speed Optimisation
 * [Mobile Devices](https://github.com/ahtohbi4/code-guide/blob/master/mobile_devices.md#mobile-devices)
 * [Search Engine Optimization (SEO)](https://github.com/ahtohbi4/code-guide/blob/master/seo.md#search-engine-optimization-seo)
-* [Localization (l10n)](https://github.com/ahtohbi4/code-style/blob/master/l10n.md#l10n)
-* [Good Practice](https://github.com/ahtohbi4/code-style/blob/master/good_practice.md)
+* [Localization (l10n)](./l10n.md#l10n)
+* [Good Practice](./good_practice.md)
 
 #### References
 
@@ -27,7 +27,7 @@ Code Guide
 #### Configurations
 
 * Git
-  * [.gitconfig](https://github.com/ahtohbi4/code-style/blob/master/git/.gitconfig)
+  * [.gitconfig](./git/.gitconfig)
 * Atom
 * Sublime Text 3
   * [Sublime Text 3 settings](https://github.com/ahtohbi4/sublime-text-settings)
