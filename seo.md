@@ -1,7 +1,7 @@
 Search Engine Optimization (SEO)
 ==
 
-[↩ Code Style](https://github.com/ahtohbi4/code-style/blob/master/README.md#code-style)
+[↩ Code Style](./README.md#code-style)
 
 ##### Table of content
 1. [References](#references)
