@@ -1,11 +1,17 @@
 Good Practice
 ==
 
-[↩ Code Style](https://github.com/ahtohbi4/code-style/blob/master/README.md#code-style)
+[↩ Code Style](./README.md#code-style)
 
 
 ##### Table of content
  1. [References](#references)
+
+#### Sort everything
+
+Try to sort any parameters. If the rules of sorting is not defined (like in CSS), sort by alphabet.
+ 1. Navigation in your code will be easier.
+ 2. It helps you to avoid of duplicates.
 
 References
 --
