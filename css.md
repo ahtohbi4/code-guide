@@ -136,7 +136,7 @@ Do not use put 0s in front of values or lengths between -1 and 1.
 
 #### Use 3 character hexadecimal notation where possible
 
-For color values that permit it, 3 character hexadecimal notation is shorter and more succinct.
+For color values that permit it, 3 characters hexadecimal notation is shorter and more succinct.
 ```css
 /* Bad */
 .bad-class {
