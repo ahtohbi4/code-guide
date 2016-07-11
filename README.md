@@ -11,7 +11,7 @@ Code Guide
 
 #### Accessibility
 
-* Speed Optimisation
+* [Speed Optimisation](./speed_optimization.md)
 * [Mobile Devices](./mobile_devices.md#mobile-devices)
 * [Search Engine Optimization (SEO)](./seo.md#search-engine-optimization-seo)
 * [Localization (l10n) and Internationalization (i18n)](./l10n_i18n.md#l10n)
