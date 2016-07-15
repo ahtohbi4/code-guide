@@ -7,6 +7,7 @@ CSS
 1. [Syntax](#syntax)
 2. [Naming of selectors (BEM)](#naming-of-selectors-bem)
 3. [Property order](#property-order)
+4. [References](#references)
 
 Syntax
 --
@@ -310,3 +311,8 @@ The full name of a modifier is created using the scheme:
 
 Property order
 --
+
+References
+--
+
+ * [Let’s Write Beautiful CSS Comments](https://seesparkbox.com/foundry/lets_write_beautiful_css_comments)
