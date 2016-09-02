@@ -7,6 +7,7 @@ JavaScript
 1. [Strict Mode](#strict-mode)
 2. [Syntax](#syntax)
 3. [Good Practices](#good-practices)
+4. [References](#references)
 
 Strict Mode
 --
@@ -229,3 +230,8 @@ secondVariable = 123;
 #### Use a clean functions
 
 [More about…](http://prgssr.ru/development/delaem-svoj-javascript-chistym.html)
+
+References
+--
+
+ * https://github.com/airbnb/javascript
