@@ -19,6 +19,7 @@ Strict mode is declared by adding 'use strict'; to the beginning of a JavaScript
 Declared at the beginning of a JavaScript file, it has global scope (all code will execute in strict mode):
 ```js
 'use strict';
+
 x = 3.14;       // This will cause an error (x is not defined)
 ```
 
