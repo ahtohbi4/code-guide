@@ -10,7 +10,7 @@
 
 [alias]
     st = status
-    cm = commit -m
+    c = commit
     co = checkout
     pl = pull
     ps = push
