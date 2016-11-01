@@ -14,7 +14,11 @@
     co = checkout
     pl = pull
     ps = push
+
+    # --no-ff
+    # --log - To create more detailed commits messages.
     m = merge --no-ff --log
+
     up = m origin/master
     sui = submodule update --init
     out = log origin/HEAD..master
