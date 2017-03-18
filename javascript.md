@@ -85,12 +85,12 @@ The following situations do not need a space:
     ```js
     /* Bad */
     var a = {
-        b :1
+        b :1,
     };
     
     /* Good */
     var a = {
-        b: 1
+        b: 1,
     };
     ```
  2. After prefix or before postfix of unary operator
