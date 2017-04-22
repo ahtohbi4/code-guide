@@ -9,12 +9,12 @@
     branch = auto
 
 [alias]
-    st = status
     br = branch
-    c = commit
+    cm = commit -m
     co = checkout
     pl = pull
     ps = push
+    st = status
 
     # --no-ff
     # --log - To create more detailed commits messages.
