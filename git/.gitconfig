@@ -16,8 +16,8 @@
     ps = push
     st = status
 
-    # --no-ff
-    # --log - To create more detailed commits messages.
+    # --no-ff Create a merge commit even when the merge resolves as a fast-forward.
+    # --log To create more detailed commits messages.
     m = merge --no-ff --log
 
     up = m origin/master
@@ -25,10 +25,10 @@
     out = log origin/HEAD..master
     diffshort = diff --color-words
 
-    # Reset Git cache and refresh list of remote branches
+    # Reset Git cache and refresh list of remote branches.
     refresh = remote update -p
 
-    # Reset the last commit but don't lose changes
+    # Reset the last commit but don't lose changes.
     undo = reset --soft HEAD^
 
     hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
