@@ -24,10 +24,17 @@
     sui = submodule update --init
     out = log origin/HEAD..master
     diffshort = diff --color-words
+
+    # Reset Git cache and refresh list of remote branches
     refresh = remote update -p
+
+    # Reset the last commit but don't lose changes
     undo = reset --soft HEAD^
 
     hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+
+[status]
+    showUntrackedFiles = all
 
 [pack]
     threads = 5
