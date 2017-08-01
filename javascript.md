@@ -42,9 +42,6 @@ Syntax
 Use soft tab (4 spaces).
 
 ```js
-var x = 1,
-    y = 1;
-
 if (x < y) {
     x += 10;
 } else {
@@ -66,7 +63,7 @@ After following situations need to add a semicolon:
 
 ```js
 /* var declaration */
-var x = 1;
+const x = 1;
 
 /* expression statement */
 x++;
@@ -84,12 +81,12 @@ The following situations do not need a space:
  1. After object's attribute name
     ```js
     /* Bad */
-    var a = {
+    const a = {
         b :1,
     };
     
     /* Good */
-    var a = {
+    const a = {
         b: 1,
     };
     ```
@@ -106,18 +103,18 @@ The following situations do not need a space:
  3. After `[` and before `]` in arrays:
     ```js
     /* Bad */
-    var a = [ 1, 2 ];
+    const a = [ 1, 2 ];
     
     /* Good */
-    var a = [1, 2];
+    const a = [1, 2];
     ```
  4. After `(` and before `)` in oterators:
     ```js
     /* Bad */
-    var a = ( 1+2 )*3;
+    const a = ( 1+2 )*3;
     
     /* Good */
-    var a = (1 + 2) * 3;
+    const a = (1 + 2) * 3;
     ```
 
 The following situations require a Space:
@@ -125,10 +122,10 @@ The following situations require a Space:
  1. Binary operators around
     ```js
     /* Bad */
-    var a=1;
+    const a=1;
     
     /* Good */
-    var a = 1;
+    const a = 1;
     ```
  2. Before and after the signs `?` and `:` in ternary operators
     ```js
@@ -163,16 +160,16 @@ Following situations require Empty lines:
  1. After the variable declaration (except variable declaration at the last line of code blocks)
     ```js
     // need blank line after variable declaration
-    var x = 1;
+    const x = 1;
 
     // not need blank line when variable declaration is last expression in the current block
     if (x >= 1) {
-        var y = x + 1;
+        const y = x + 1;
     }
     ```
  2. Before comments (except comment on the first line of code block)
     ```js
-    var a = 2;
+    const a = 2;
 
     // need blank line before line comment
     a++;
