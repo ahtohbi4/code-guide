@@ -217,8 +217,8 @@ This will:
 
 ```js
 // Declare at the beginning
-var firstVariable,
-    secondVariable;
+const firstVariable;
+const secondVariable;
 
 // Use later
 firstVariable = 'some value';
