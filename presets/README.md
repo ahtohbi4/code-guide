@@ -23,3 +23,17 @@ For example, using `yarn`:
 ```
 $ yarn add eslint babel-eslint eslint-config-airbnb eslint-plugin-jsx-a11y eslint-plugin-import eslint-plugin-react -D
 ```
+
+.stylelintrc
+--
+
+Requires to install of dependencies:
+
+1. [stylelint](https://www.npmjs.com/package/stylelint).
+1. [stylelint-config-recommended](https://github.com/stylelint/stylelint-config-recommended).
+
+For example, using `yarn`:
+
+```
+$ yarn add stylelint stylelint-config-recommended -D
+```
