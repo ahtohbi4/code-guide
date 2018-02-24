@@ -8,6 +8,9 @@
       "jsx": true
     }
   },
+  "env": {
+    "mocha": true
+  },
   "rules": {
     "arrow-parens": ["error", "always"],
     "class-methods-use-this": "warn",
