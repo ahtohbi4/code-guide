@@ -1,3 +1,8 @@
+.editorconfig
+--
+
+For **VS Code** use "EditorConfig for VS Code" plugin.
+
 .eslintrc
 --
 
