@@ -1,3 +1,5 @@
+# @see http://editorconfig.org
+
 root = true
 
 [*]
@@ -8,5 +10,6 @@ indent_size = 4
 indent_style = space
 trim_trailing_whitespace = true
 
-[*.{json,yml}]
+# Smaller indent for config files like *.json, .eslintrc or .stylelintrc.
+[*.{json,yml,*rc}]
 indent_size = 2
