@@ -41,7 +41,7 @@ $ yarn add stylelint stylelint-config-recommended -D
 pre-commit
 --
 
-1. Install [`pre-commit`](https://www.npmjs.com/package/pre-commit) and [`lint-staged`](https://www.npmjs.com/package/lint-staged) package:
+1. Install [`pre-commit`](https://www.npmjs.com/package/pre-commit) and [`lint-staged`](https://www.npmjs.com/package/lint-staged) packages:
 
 ```
 $ yarn add pre-commit lint-staged -D
