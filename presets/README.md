@@ -41,10 +41,10 @@ $ yarn add stylelint stylelint-config-recommended -D
 pre-commit
 --
 
-1. Install `prop-types` package:
+1. Install [`pre-commit`](https://www.npmjs.com/package/pre-commit) and [`lint-staged`](https://www.npmjs.com/package/lint-staged) package:
 
 ```
-$ yarn add prop-types -D
+$ yarn add pre-commit lint-staged -D
 ```
 
 2. Add set of npm scripts to package.json:
