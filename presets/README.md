@@ -37,3 +37,52 @@ For example, using `yarn`:
 ```
 $ yarn add stylelint stylelint-config-recommended -D
 ```
+
+pre-commit
+--
+
+1. Install `prop-types` package:
+
+```
+$ yarn add prop-types -D
+```
+
+2. Add set of npm scripts to package.json:
+
+```json
+{
+  "pre-commit": "lint:staged"
+}
+```
+
+3. Define script in section `script`:
+
+```json
+{
+  "scripts": {
+    "lint:staged": "lint-staged"
+  }
+}
+```
+
+4. Set `lint-staged` items:
+
+```json
+{
+  "lint-staged": {
+    "*.css": "lint:css",
+    "*.js": "lint:js"
+  }
+}
+```
+
+5. Define scripts from the set:
+
+```json
+{
+  "scripts": {
+    "lint:css": "node_modules/.bin/stylelint *.css",
+    "lint:js": "node_modules/.bin/eslint *.js"
+  }
+}
+```
