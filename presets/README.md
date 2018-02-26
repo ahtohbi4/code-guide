@@ -60,7 +60,7 @@ $ yarn add pre-commit lint-staged -D
 ```json
 {
   "scripts": {
-    "lint:staged": "lint-staged"
+    "lint:staged": "node_modules/.bin/lint-staged"
   }
 }
 ```
@@ -70,8 +70,8 @@ $ yarn add pre-commit lint-staged -D
 ```json
 {
   "lint-staged": {
-    "*.css": "lint:css",
-    "*.js": "lint:js"
+    "*.css": "yarn lint:css",
+    "*.js": "yarn lint:js"
   }
 }
 ```
