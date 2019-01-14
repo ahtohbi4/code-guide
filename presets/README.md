@@ -9,7 +9,7 @@ For **VS Code** use "EditorConfig for VS Code" plugin.
 .eslintrc
 --
 
-Requires to install of dependencies:
+Requires to install the dependencies:
 
 1. [eslint](https://www.npmjs.com/package/eslint).
 1. [babel-eslint](https://www.npmjs.com/package/babel-eslint).
@@ -23,6 +23,13 @@ For example, using `yarn`:
 ```
 $ yarn add eslint babel-eslint eslint-config-airbnb eslint-plugin-jsx-a11y eslint-plugin-import eslint-plugin-react -D
 ```
+
+.prettierrc.json
+--
+
+Requires to install the dependencies:
+
+1. [prettier@1.15.0](https://www.npmjs.com/package/prettier).
 
 .stylelintrc
 --
