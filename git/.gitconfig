@@ -21,7 +21,11 @@
     # --log To create more detailed commits messages.
     m = merge --no-ff --log
 
+    # Updates current branch from master.
     up  = rebase origin/master
+    upa = rebase --abort
+    upc = rebase --continue
+
     sui = submodule update --init
     out = log origin/HEAD..master
     ds  = diff --color-words
