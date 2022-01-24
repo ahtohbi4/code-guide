@@ -2,13 +2,8 @@
     name = Alexander Antonov
     email = alexandr-post@yandex.ru
 
-[color]
-    ui = auto
-    status = auto
-    diff = auto
-    branch = auto
-
 [alias]
+    a  = "!git add . && git st"
     br = branch
     cm = commit -m
     co = checkout
@@ -20,16 +15,19 @@
     # --log To create more detailed commits messages.
     m = merge --no-ff --log
 
-    up = m origin/master
+    up  = rebase origin/master
     sui = submodule update --init
     out = log origin/HEAD..master
-    diffshort = diff --color-words
+    ds  = diff --color-words
 
-    # Reset Git cache and refresh list of remote branches.
+    # Resets Git cache and refresh list of remote branches.
     refresh = remote update -p
 
-    # Reset the last commit but don't lose changes.
+    # Resets the last commit but don't lose changes.
     undo = reset --soft HEAD^
+
+    # Returns to the branch "master" with removing the merged previous feature branch.
+    home = "!git co master && git refresh && git pl && git br -d @{-1} && git st"
 
     hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
 
@@ -41,6 +39,9 @@
 
 [core]
     editor = vim
+
+[pull]
+    rebase = true
 
 [push]
     default = current
