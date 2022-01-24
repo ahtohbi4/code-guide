@@ -2,6 +2,12 @@
     name = Alexander Antonov
     email = alexandr-post@yandex.ru
 
+[color]
+    ui     = auto
+    status = auto
+    diff   = auto
+    branch = auto
+
 [alias]
     a  = "!git add . && git st"
     br = branch
