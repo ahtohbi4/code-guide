@@ -22,7 +22,7 @@
     m = merge --no-ff --log
 
     # Updates current branch from master.
-    up  = rebase origin/master
+    up  = "!git refresh && git rebase origin/master"
     upa = rebase --abort
     upc = rebase --continue
 
